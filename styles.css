@@ -1,24 +1,49 @@
 /*This is for the first website on the Odin Project*/
 #Block1 {
     background-color:#1F2937;
+    width:auto;
 
 
 }
 #Navbar {
     display:flex;
-    width:auto;
     justify-content:space-around;
     align-items:center;
-    margin:5px;
 }
 #Headerlogo {
+    width:45%;
     font: 24px arial;
     color: #F9FAF8;
 
 }
 #Headerlinks{
+    width:45%;
     font: 18px arial;
     color:#E5E7EB;
     display:flex;
     gap:15px;
+    justify-content:flex-end;
+}
+#Maincontent{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-flow:row wrap;
+    flex-basis:100%;
+}
+#Main1{
+    width:45%;
+    flex-flow:row wrap;
+}
+#Maintext{
+    font: 40px arial;
+    color:#F9FAF8;
+}
+#Mainsub{
+    font: 18px arial;
+    color:#E5E7EB;
+}
+#Main2{
+    width: 45%;
+    justify-content:flex-end;
 }
