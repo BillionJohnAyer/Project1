@@ -1,1 +1,24 @@
 /*This is for the first website on the Odin Project*/
+#Block1 {
+    background-color:#1F2937;
+
+
+}
+#Navbar {
+    display:flex;
+    width:auto;
+    justify-content:space-around;
+    align-items:center;
+    margin:5px;
+}
+#Headerlogo {
+    font: 24px arial;
+    color: #F9FAF8;
+
+}
+#Headerlinks{
+    font: 18px arial;
+    color:#E5E7EB;
+    display:flex;
+    gap:15px;
+}
