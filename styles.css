@@ -27,13 +27,12 @@
 #Maincontent{
     display:flex;
     justify-content:space-around;
-    align-items:center;
-    flex-flow:row wrap;
-    flex-basis:100%;
+    flex-flow:row;
 }
 #Main1{
+    display:flex;
     width:45%;
-    flex-flow:row wrap;
+    flex-flow:column wrap;
 }
 #Maintext{
     font: 40px arial;
@@ -46,4 +45,9 @@
 #Main2{
     width: 45%;
     justify-content:flex-end;
+    font:15px arial;
+    color:#E5E7EB;
+    background-color:slategray;
+    text-align:center;
+    height:auto;
 }
