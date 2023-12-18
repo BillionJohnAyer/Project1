@@ -1,9 +1,20 @@
 /*This is for the first website on the Odin Project*/
+
+body {
+    Margin:0px;
+}
+h1 {
+    margin:0px;
+}
+p {
+    margin:0px;
+}
+button {
+    margin:20px;
+}
 #Block1 {
     background-color:#1F2937;
     width:auto;
-
-
 }
 #Navbar {
     display:flex;
@@ -32,11 +43,18 @@
 #Main1{
     display:flex;
     width:45%;
-    flex-flow:column wrap;
+    flex-flow:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin:0;
+    padding:0;
+    border:0;
 }
 #Maintext{
     font: 40px arial;
     color:#F9FAF8;
+    width:auto;
+    padding:0px;
 }
 #Mainsub{
     font: 18px arial;
