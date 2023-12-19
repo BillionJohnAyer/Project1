@@ -23,13 +23,13 @@ button {
 }
 #Headerlogo {
     width:45%;
-    font: 24px arial;
+    font: 24px helvetica;
     color: #F9FAF8;
 
 }
 #Headerlinks{
     width:45%;
-    font: 18px arial;
+    font: 18px helvetica;
     color:#E5E7EB;
     display:flex;
     gap:15px;
@@ -49,19 +49,20 @@ button {
     gap:5px
 }
 #Maintext{
-    font: 40px arial;
+    font: 40px helvetica;
+    font-weight:bolder;
     color:#F9FAF8;
     width:auto;
     padding:0px;
 }
 #Mainsub{
-    font: 18px arial;
+    font: 18px helvetica;
     color:#E5E7EB;
 }
 .signupbutton {
     color:#E5E7EB;
-    font:25px arial;
-    font-weight:10px;
+    font:25px helvetica;
+    font-weight:bold;
     background-color:#3882F6;
     padding:10px 30px 10px 30px;
     border-radius:10px;
@@ -71,9 +72,17 @@ button {
     width: 45%;
     justify-content:center;
     align-items:center;
-    font:15px arial;
+    font:15px helvetica;
     color:#E5E7EB;
     background-color:slategray;
-    height:auto;
     display:flex;
+}
+#Block2{
+    text-align:center;
+}
+#Block2text{
+    font:36px helvetica;
+    font-weight:bolder;
+    color:#1F2937;
+    
 }
