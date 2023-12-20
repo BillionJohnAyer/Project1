@@ -79,6 +79,7 @@ button {
 }
 #Block2{
     text-align:center;
+    display:inline block;
 }
 #Block2text{
     font:36px helvetica;
@@ -86,10 +87,11 @@ button {
     color:#1F2937;
 }
 #fourblocks{
-    width:75%;
     display:flex;
-    flex-flow:row;
+    flex-flow:row nowrap;
     justify-content:space-around;
+    width:75%;
+
 }
 .smallblocks{
     height:300px;
