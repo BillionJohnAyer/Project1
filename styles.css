@@ -119,3 +119,30 @@ button {
     font: 17px helvetica;
     color:grey;
 }
+#Block3{
+    background-color:#E5E7EB;
+    display:block;
+    align-items:center;
+}
+#Block3container{
+    display:block;
+    text-align:center;
+    height:auto;
+    margin:0% 25% 0%;
+}
+#quote{
+    display:block;
+    flex-flow:column wrap;
+    color:#1F2937;
+    font: 36px helvetica;
+    font-weight:lighter;
+    font-style:italic;
+    width:707px;
+}
+#quoteauthor{
+    display:flex;
+    justify-content:flex-end;
+    font:20px helvetica;
+    font-weight:bolder;
+    color:#1F2937;
+}
