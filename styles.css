@@ -86,12 +86,16 @@ button {
     font-weight:bolder;
     color:#1F2937;
 }
+#fourblockscontainer{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
 #fourblocks{
     display:flex;
     flex-flow:row nowrap;
     justify-content:space-around;
-    width:75%;
-
+    gap:30px;
 }
 .smallblocks{
     height:300px;
